@@ -1,0 +1,36 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    left: 2em;
+    top: 2em;
+    font-size: 3em;
+    z-index: 1;
+}
+
+footer {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    z-index: 1;
+    color: white;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.front {
+    display: inline;
+}
+
+.next {
+    display: none;
+}
+

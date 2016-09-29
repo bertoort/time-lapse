@@ -1,0 +1,8 @@
+{{ define "index" }} {{ template "_header" . }}
+
+<header>{{ .NotFound }}</header>
+<main>
+    <img class="loading" src="/public/img/loading.gif" alt="loading">    
+</main>
+
+{{ template "_footer" . }} {{ end }}
